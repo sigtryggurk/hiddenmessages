@@ -113,7 +113,7 @@ class TestStringMethods(unittest.TestCase):
     seq = Sequence("HELLO WORLD")
     subseq = Sequence("HELP")
 
- #   self.assertTrue(len(seq-subseq) == 1311)
+    self.assertTrue(len(seq-subseq) == 1311)
 
 
 if __name__ == "__main__":
